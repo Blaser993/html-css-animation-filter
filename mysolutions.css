@@ -140,12 +140,39 @@
 
 /* ESERCIZIO 10 */
 
-.ex-10-icon {
+.ex-10-icon{
     font-size: 60px;
+    animation-name: gira;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5,.5,.5,.5);
+    position: relative;
 }
+
+
+@keyframes gira {
+
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+        
+
+
+
+
+
+/* ESERCIZIO 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+
+
+
+/* ESERCIZIO 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -175,3 +202,6 @@
     width: 60px;
     height: 20px;
 }
+
+
+/* ESERCIZIO 13 */
