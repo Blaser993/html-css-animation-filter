@@ -164,8 +164,22 @@
 
 /* ESERCIZIO 11 */
 
-.ex-11-icon {
+.ex-11-icon:hover{
     font-size: 60px;
+    animation-name: girapazzo;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5,.5,.5,.5);
+    position: relative;
+}
+
+
+@keyframes girapazzo {
+
+    0% {transform:rotate(0deg);}
+    70% {transform:rotate(270deg);}
+    100% {transform:rotate(0deg);}
 }
 
 
