@@ -19,7 +19,19 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 3s, height 3s;
 }
+
+
+.ex-2-square:active {
+    width: 100%;
+    height: 80vh;
+}
+
+
+
+/* ESERCIZIO 3 */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
